@@ -1,0 +1,247 @@
+/*all pages*/
+body {
+    border: solid 10px #be1e2d;
+    background-color: #d4a18d;
+    margin: 0px;
+    padding: 8px;
+}
+
+#top{
+  background-color: #41393d;
+  width: fit-content;
+}
+
+h1{
+    font-family: "Atheleas", serif; 
+    font-style: italic;
+    color: brown;
+    margin-top: 0px;
+}
+
+.topnav {
+    padding-left: 5px;
+    overflow: auto;
+    height: auto;
+    width: 100%;
+}
+
+.topnav a {
+  background-color: #41393d;
+  border: solid #8a8c8f 1px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+  padding: 12px;
+  width: 18%;
+  min-width: 102.75px;
+  height: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #d7e4c2;
+  color: white;
+}
+
+h2{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  color: #be1e2d;
+  text-align: center;
+}
+
+footer{
+  width: 100%;
+  height: 90px;
+  background-color: #41393d;
+  color: white;
+  text-align: center;
+}
+
+footer h2{
+  text-decoration: underline;
+  text-align: center;
+}
+
+footer h3{
+  float: left;
+  min-height: auto;
+  margin: 0px;
+  width: auto;
+  text-align: center;
+  overflow: auto;
+  margin-top: 15px;
+}
+
+#facebook{
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  float: left;
+}
+
+#twitter{
+  height: 30px;
+  width: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+/* home page */
+#maintext{
+  float: left;
+  /* position: relative; */
+  margin-left: 16%;
+  margin-right: 0;
+}
+
+#maintext p{
+  border: 2px solid white;
+  font-family: "Atheleas", serif;
+  max-width: 500px;
+  min-height: 200px;
+  height: auto;
+  float: left;
+}
+
+#chinese{
+  display: block;
+  border: solid 2px green;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+}
+
+#seasame{
+  max-width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .topnav{
+    padding-left: 15%;
+    /* padding-right: 15%; */
+  }
+
+  .topnav a {
+    float: center;
+    padding: auto;
+    display: block;
+    /* min-width: auto; */
+    text-align: center;
+  }
+
+  #chinese{
+    width: 98%; 
+}
+
+  #maintext{
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+}
+
+/*menu page*/
+#menu{
+  margin-top: 25px;
+  border: #8a8c8f 2px solid;
+  text-align: center;
+  background-color: #d7e4c2;
+}
+
+#tmenu{
+  height: 100%;
+  width: 90%;
+}
+
+/*catering*/
+#questions{
+  background-color: #d7e4c2;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+#questions h1{
+  text-align: center;
+}
+
+#questions ul{
+  background-color: #ddd;
+  border: #8a8c8f solid 2px;
+  margin: 5px;
+  color: #be1e2d;
+}
+
+#questions blockquote{
+  color: black;
+}
+
+#button{
+  width: 250px;
+  height: 50px;
+  background-color: #be1e2d;
+  border: black solid 2px;
+  text-align: center;
+  margin-left: 40%;
+  color: #f2f2f2;
+  font-family: "Atheleas", serif;
+  text-shadow: 1px 1px black;
+  padding-top:20px;
+  font-size: 25px;
+}
+
+/* locations */
+
+#location{
+  height: 800px;
+  font-family: "Atheleas", serif; 
+}
+
+#l1{
+  width: 40%;
+  height: 250px;
+  border: white solid 2px;
+  margin: 5px;
+  /* position: left; */
+  margin-left: 30%;
+  text-align: center;
+  background-color: #d7e4c2;
+  font-size: 20px;
+}
+
+#l2{
+  width: 40%;
+  height: 250px;
+  border: #41393d solid 2px;
+  background-color: #ca4653;
+  margin: 5px;
+  float: left;
+  margin-left: 30%;
+  color: #f2f2f2;
+  text-shadow: 1px 1px black;
+  font-size: 40px;
+}
+
+#l2 p{
+  margin: 0px;
+  padding: 100px;
+}
+
+#l1 img{
+  width: 250px;
+  height: 125px;
+  border: black solid 2px;
+}
